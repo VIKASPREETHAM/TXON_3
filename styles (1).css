@@ -1,0 +1,109 @@
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: linear-gradient(
+    to bottom right,
+    #e1ded7,
+    #9bafc8
+  ); /* Slightly Darker Pastel Ivory to Slightly Darker Pastel Sky Blue */
+}
+
+.container {
+  text-align: center;
+  background: linear-gradient(
+    to bottom right,
+    #9bafc8,
+    #e1ded7
+  ); /* Slightly Darker Pastel Sky Blue to Slightly Darker Pastel Ivory */
+  color: #333; /* Dark Gray text on Slightly Darker Pastel Sky Blue */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input {
+  padding: 8px;
+  margin-right: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+button {
+  padding: 8px 16px;
+  background: linear-gradient(
+    to bottom right,
+    #1e4d6c,
+    #15334f
+  ); /* New Button Color: Dark Blue */
+  color: #fff; /* White text on Dark Blue */
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  margin: 8px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  margin: 8px 0;
+  padding: 8px;
+  background: linear-gradient(
+    to bottom right,
+    #b4c1c6,
+    #8fa3ae
+  ); /* Darker Pastel Sky Blue to Slightly Darker Pastel Sky Blue */
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.checkbox {
+  margin-left: 8px;
+  color: #333; /* Dark Gray text on Darker Pastel Sky Blue */
+}
+
+.task-text {
+  flex-grow: 1; /* Takes up all available space, pushing the checkbox to the right */
+}
+
+/* Minimalistic theme adjustments */
+h1 {
+  color: #333; /* Dark Gray */
+}
+
+button:hover {
+  background: linear-gradient(
+    to bottom right,
+    #15334f,
+    #0e1f33
+  ); /* Dark Blue to Darker Dark Blue on Hover */
+}
+
+button:active {
+  background: linear-gradient(
+    to bottom right,
+    #0e1f33,
+    #091724
+  ); /* Darker Dark Blue to Darkest Dark Blue on Click */
+}
+
+li:hover {
+  background: linear-gradient(
+    to bottom right,
+    #8fa3ae,
+    #6b8993
+  ); /* Slightly Darker Pastel Sky Blue to Darker Pastel Sky Blue on Hover */
+  transition: background 0.3s;
+}
